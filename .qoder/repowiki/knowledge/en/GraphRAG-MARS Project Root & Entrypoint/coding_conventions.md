@@ -1,0 +1,4 @@
+- CLI subcommands are implemented as top-level functions in `main.py` and dispatched via `argparse` subparsers rather than a framework router.
+- Heavy dependencies (Uvicorn, RAG pipeline, graph retriever, evaluation runner) are imported lazily inside their respective command handlers to minimize cold-start time.
+- Logging is centralized through `loguru` configured once in `setup_logging` before any subcommand runs.
+- Containerized deployment uses multi-stage compose with explicit service healthchecks and environment-driven configuration instead of hardcoded secrets.

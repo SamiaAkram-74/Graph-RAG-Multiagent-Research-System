@@ -1,0 +1,1 @@
+Root of the GraphRAG-MARS research assistant, providing the CLI entry point, FastAPI server bootstrap, Docker orchestration for Neo4j + backend + Streamlit frontend, and project configuration.

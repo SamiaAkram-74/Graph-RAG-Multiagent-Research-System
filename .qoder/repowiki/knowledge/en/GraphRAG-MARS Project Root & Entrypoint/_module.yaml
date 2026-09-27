@@ -1,0 +1,15 @@
+schema_version: 1
+module_path: ""
+title: GraphRAG-MARS Project Root & Entrypoint
+scope:
+    - README.md
+    - .gitignore
+    - Dockerfile
+    - Dockerfile.frontend
+    - docker-compose.yml
+    - requirements.txt
+    - main.py
+    - .env.example
+source_files: []
+depends_on: []
+related_to: []

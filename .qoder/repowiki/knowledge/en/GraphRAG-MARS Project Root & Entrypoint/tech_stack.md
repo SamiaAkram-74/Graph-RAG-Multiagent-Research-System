@@ -1,0 +1,1 @@
+Python 3.11 with FastAPI/Uvicorn backend, Google Gemini and OpenAI LLMs via LangChain, ChromaDB/FAISS vector stores, Neo4j+APOC knowledge graph, Streamlit frontend, and Docker Compose for local orchestration.

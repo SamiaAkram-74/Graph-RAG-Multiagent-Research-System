@@ -1,0 +1,1 @@
+Run the full stack with `docker-compose up` (Neo4j on :7474, backend on :8080, frontend on :8501). Locally: `pip install -r requirements.txt`, copy `.env.example` to `.env` and fill `GEMINI_API_KEY`, then `python main.py serve|ingest <path>|graph <path>|evaluate`. Frontend runs separately via `streamlit run frontend/app.py`.
